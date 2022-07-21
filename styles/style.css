@@ -1,0 +1,159 @@
+body {
+  font-family: "Gantari", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* =====font awasoeme===== */
+@import url("https://fonts.googleapis.com/css2?family=Gantari&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* =====banner-design==== */
+.banner {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 646px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+/* ======left-content design===== */
+.left-content {
+  color: white;
+  padding: 111px 106px;
+}
+.left-content h1 {
+  width: 531px;
+  height: 240px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+.left-content p {
+  width: 506px;
+  height: 78px;
+  font-weight: 400px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.left-content a {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background-color: #dd0000;
+  width: 187px;
+  height: 56px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.right-content {
+  margin-top: 33px;
+  margin-right: 79px;
+  margin-left: 79px;
+}
+.right-content img {
+  width: 581px;
+  height: 613px;
+}
+
+/* =====second content===== */
+.second {
+  display: flex;
+  margin-top: 80px;
+}
+/* LEFT */
+.left {
+  width: 312px;
+  height: 312px;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.left a {
+  width: 252px;
+  height: 64px;
+  text-align: center;
+  font-weight: 700px;
+  margin: 30px;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  color: black;
+}
+.left a:hover {
+  background-color: #dd0000;
+  color: aliceblue;
+}
+.left a:active {
+  background-color: #dd0000;
+  color: aliceblue;
+}
+
+/* RIGHT */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 18px;
+}
+.blog {
+  margin-left: 24px;
+  width: 312px;
+  height: 362px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.blog .content {
+  padding-left: 15px;
+}
+.trans {
+  border: 2px solid gray;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  color: #161616;
+  border-radius: 5px;
+}
+.ico-ali {
+  display: flex;
+  align-items: center;
+}
+.ico-ali .ico,
+span {
+  margin-left: 15px;
+  color: #161616;
+}
+/* =====second content end===== */
+
+/* footer design  */
+footer {
+  width: 100%;
+  height: 444px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}
+footer h1 {
+  padding-top: 130px;
+}
+footer hr {
+  width: 80%;
+  border: 1px solid #ffffff;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  padding-top: 50px;
+  text-decoration: none;
+  color: #ffffff;
+}
